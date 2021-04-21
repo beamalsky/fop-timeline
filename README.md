@@ -1,6 +1,6 @@
-# SSW Protest Timeline
+# FOP Timeline
 
-Built using Mapbox's [Storytelling template](https://github.com/mapbox/storytelling) and ported to Gatsby. Pulls chapters from an Airtable backend.
+An interactive history of Chicago's Fraternal Order of Police. Open source web interactive by Bea Malsky; this is a Gatsby app with an Airtable backend.
 
 ### 💾 Requirements
 
@@ -12,14 +12,13 @@ Built using Mapbox's [Storytelling template](https://github.com/mapbox/storytell
 1. Open your terminal and download the repo:
 
     ```shell
-    git clone git@github.com:beamalsky/ssw-protest-timeline.git
-    cd ssw-protest-timeline
+    git clone git@github.com:beamalsky/fop-timeline.git
+    cd fop-timeline
     ```
 
-2. You'll need your own Mapbox token for local development and an Airtable spreadsheet. Sign up for [Mapbox](https://account.mapbox.com/), create an access token, and then create a `.env` file at the root of this directory with the following:
+2. Create a `.env` file at the root of this directory with the following:
 
     ```
-    GATSBY_MAPBOX_KEY=''
     GATSBY_AIRTABLE_KEY=''
     GATSBY_BASE_ID=''
     ```
@@ -36,7 +35,7 @@ Built using Mapbox's [Storytelling template](https://github.com/mapbox/storytell
     yarn develop
     ```
 
-    Your site should now be up and running at `http://localhost:8000`!
+    Your site should now be up and running at `http://localhost:8002`!
 
 4. If you change the content in Airtable and want to see it updated in the site, run:
 
